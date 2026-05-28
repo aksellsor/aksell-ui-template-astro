@@ -1,0 +1,14 @@
+{
+  "name": "{{project-name}}",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@aksell/ui": "^0.4.1",
+    "astro": "^6.3.1"
+  }
+}
