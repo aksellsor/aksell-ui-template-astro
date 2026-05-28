@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@aksell/ui": "^0.4.1",
-    "astro": "^6.3.1"
+    "astro": "^6.3.8"
   }
 }
