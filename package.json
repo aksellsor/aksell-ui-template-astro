@@ -8,7 +8,7 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "@aksell/ui": "^3.0.1",
+    "@aksell/ui": "^3.0.2",
     "astro": "^6.4.1"
   }
 }
