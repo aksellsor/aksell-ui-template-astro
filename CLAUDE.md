@@ -24,8 +24,8 @@ All base styles come from `@aksell/ui`. Project-specific styles go in `src/style
 
 ## Rule 6 — Use @aksell/ui Export Keys
 Import from `@aksell/ui` using only the export keys defined in its package.json:
-`.`, `./resets`, `./colors`, `./typography`, `./forms`, `./toast`, `./toast-astro`,
-`./toast.css`, `./buttons.css`, `./pillarrowbtn`, `./pillarrowbtn.css`, `./provider`
+`.`, `./resets`, `./colors`, `./typography`, `./native`, `./toast`, `./toast-astro`,
+`./toast.css`, `./btn.css`, `./pillarrowbtn`, `./pillarrowbtn.css`, `./provider`
 Do NOT import from `@aksell/ui/src/...` deep paths.
 
 ## Rule 7 — Don't Modify UIProvider Setup
