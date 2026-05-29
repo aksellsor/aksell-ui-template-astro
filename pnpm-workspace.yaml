@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: set this to true or false
+  sharp: set this to true or false
+minimumReleaseAgeExclude:
+  - '@aksell/ui@3.0.4'
+  - astro@6.4.1
