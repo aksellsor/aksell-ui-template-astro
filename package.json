@@ -4,11 +4,13 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "check": "npm run check:aksell && npm run build",
+    "check:aksell": "node scripts/check-aksell-template.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },
   "dependencies": {
-    "@aksell/ui": "^3.0.4",
+    "@aksell/ui": "^3.0.5",
     "astro": "^6.4.1"
   }
 }

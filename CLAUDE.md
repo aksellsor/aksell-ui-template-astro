@@ -21,16 +21,17 @@ Do not add raw `<html>`, `<head>`, or `<body>` tags to page files.
 ## Rule 5 — aksell-ui is the Design System
 Do NOT add Tailwind, Bootstrap, or any other CSS framework.
 All base styles come from `@aksell/ui`. Project-specific styles go in `src/styles/global.css`.
+Do not add Aeonik font files unless this project has a valid license; licensed font-face declarations belong in project CSS.
 
 ## Rule 6 — Use @aksell/ui Export Keys
 Import from `@aksell/ui` using only the export keys defined in its package.json:
-`.`, `./resets`, `./colors`, `./typography`, `./native`, `./toast`, `./toast-astro`,
+`.`, `./resets.css`, `./colors.css`, `./typography.css`, `./native.css`, `./toast`,
 `./toast.css`, `./btn.css`, `./pillarrowbtn`, `./pillarrowbtn.css`, `./provider`
 Do NOT import from `@aksell/ui/src/...` deep paths.
 
 ## Rule 7 — Don't Modify UIProvider Setup
 `Layout.astro` wraps content in `UIProvider`. Don't remove or move it without
-understanding what it provides (toast context, CSS resets, colors, typography, buttons, and forms — all injected automatically).
+understanding what it provides (CSS resets, colors, typography, native element styles, buttons, and toast CSS — all injected automatically).
 
 ## Rule 8 — Match Existing Conventions
 Follow patterns in the project. Surface concerns — don't fix silently.
